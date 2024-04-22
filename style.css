@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background: #13363D; 
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;}
+
+ul {
+    list-style: none;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: "Teko", sans-serif;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    
+}
+
+.menu a{
+    color:#ffffffad;
+
+}
+
+.menu-item {
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 5s ease-in-out;
+    
+}
+
+
+.menu-item > a:hover{
+    color: #eca817a3;
+    
+}
+
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-background{
+    max-width: 1920px;
+    background: #091B21;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 65vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0rem 2rem;
+    margin: auto; 
+    align-items: center;
+    overflow: clip;
+
+}
+
+
+
+
+
+.hero-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    max-width: 500px;
+
+
+}
+
+.hero-imagens {
+    max-width:50%;
+    column-count: 4;
+    column-gap: 0.25rem;
+    margin: -1rem;
+    
+
+}
+
+.hero-imagens > figure >  img{
+    width: 100%;
+    max-width: 80%;
+    
+}
+
+
+.destaque {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.amarelo {
+    color: #ECA717;
+}
+
+.hero  h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+hr {
+    border-color: #ECA717;
+   
+}
+
+.hero  h2{
+    font-weight: 400;
+    font-size: 1.25rem; 
+    color:#ffffffad;}
+
+.botao-container{
+    width: 100%;
+    max-width:1120px;
+    margin: auto;
+    transform: translate(0, "-50%");
+    
+
+}
+
+button{
+    border: none;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    
+    background-color: #ECA717;
+    margin: -2rem;
+    margin-left: 2rem;}
+
+
+    
+button > img {
+    width: 80%;
+}
+   
+
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1200px;
+    padding: 3rem 1rem;
+    margin: auto;
+}
+
+.receitas-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap:  0.5rem;
+}
+
+.receitas-titulo{
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 700; }
+
+
+.receitas-subtitulo{
+    font-size: 1rem;
+    color:#ffffffad;
+    font-weight: 400;
+}
+
+
+.conjunto-cards-receitas{
+    columns: 2;
+    
+}
+
+
+
+
+
+.receitas-card-container{
+    padding: 0rem 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.receitas-card{
+    background-color: #091B21;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+    
+}
+
+
+
+.head-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: end;
+}
+
+.head-card-detalhes > h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.head-card-detalhes > span {
+    font-size: 0.85rem;
+}
+
+.card-avaliacao{
+    color: #ffffff80;
+    font-size: 0.85rem;
+}
+
+.content-card{
+    color: #ffffffad;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.author-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    
+
+}
+
+.author-card > img {
+    max-width: 100%;
+    width: 1.75rem;
+    border-radius: 20rem;
+
+}
+
+.author-card > span {
+    font-size: 0.85rem;
+}
+
+
+.carregar-receitas{
+    color: #ffffffad;
+    font-size: 1rem;
+    margin: 2rem auto;
+    
+   
+}
+
+.novidades{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1200px;
+    padding: 3rem 1rem;
+    margin: auto;
+
+}
+
+.novidades > .novidades-conjunto-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: auto;
+
+}
+
+.novidades > .novidades-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap:  0.5rem;
+
+
+}
+
+.novidades > .novidades-cabecalho > h1 {
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+.novidades > .novidades-cabecalho > h2 {
+    font-size: 1rem;
+    color:#ffffffad;
+    font-weight: 400;
+
+}
+
+
+
+
+.novidade-card{
+    background-color: #091B21;
+    border-radius: 1rem;
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+   
+    margin: 3rem 0rem;
+    overflow: clip;
+
+}
+
+.novidade-card > .head-card-detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.novidade-card > .head-card-detalhes > h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.novidade-card > .head-card-detalhes > span {
+    font-size: 0.75rem;
+}
+
+.novidade-card > .head-card-detalhes > p {
+    font-size:0.85rem;
+    color: #ffffffad;
+}
+
+.novidade-card > .img-novidade > img {
+    width:6rem;
+    border-radius: 0.25rem;
+    
+}
+ 
+
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #091B21;
+    gap: 0.5rem;
+
+}
+
+
+footer > .Copyright {
+    color: #FFFFFF;
+    font-size: 0.85rem;
+
+}
+
+footer > .footer-descricao{
+    color:#ffffffad;
+    font-size: 0.85rem;
+}
+
+footer > .detalhes-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    align-items: center;
+
+}
+
+footer > .detalhes-footer > a{
+
+    font-size: 0.85rem;
+    color:#ffffffad ;
+}
