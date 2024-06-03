@@ -13,28 +13,17 @@ html{
 
 
 body{
-<<<<<<< HEAD
     background: #FFFFFF; 
     color: #13363D;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     transition: background 0.2s linear;
-=======
-    background: #13363D; 
-    color: #FFFFFF;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     
 }
 
 a {
     text-decoration: none;
-<<<<<<< HEAD
     color: #13363D;
-=======
-    color: #FFFFFF;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 }
 
 nav {
@@ -57,7 +46,6 @@ ul {
     font-family: "Teko", sans-serif;
 }
 
-<<<<<<< HEAD
 .menu{
     display: flex;
     flex-direction: row;
@@ -68,23 +56,13 @@ ul {
 .menu-lista{
     display: flex;
     flex-direction: row;
-=======
-
-.menu{
-    display: flex;
-    flex-direction: row;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     gap: 1.5rem;
     align-items: center;
     
 }
 
 .menu a{
-<<<<<<< HEAD
     color: #13363da0;
-=======
-    color:#ffffffad;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 
 }
 
@@ -102,7 +80,6 @@ ul {
 }
 
 
-<<<<<<< HEAD
 /* Costumização dark/light */
 body.dark {
     background: #13363D;
@@ -205,10 +182,6 @@ body.dark .carregar-receitas{
   }
 
 /* Final da costumização dark/light */
-=======
-
-
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 
 main{
     display: flex;
@@ -217,11 +190,7 @@ main{
 
 .hero-background{
     max-width: 1920px;
-<<<<<<< HEAD
     background: #e5bb60d4;
-=======
-    background: #091B21;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 }
 
 .hero {
@@ -271,7 +240,6 @@ main{
 
 .destaque {
     font-size: 1rem;
-<<<<<<< HEAD
     font-weight: 600;
     text-transform: uppercase;
     color: #f1c40f;
@@ -283,39 +251,20 @@ main{
 }
 
 
-=======
-    font-weight: 500;
-    text-transform: uppercase;
-
-}
-
-.amarelo {
-    color: #ECA717;
-}
-
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 .hero  h1{
     font-size: 3.5rem;
     font-weight: 700;
 }
 
 hr {
-<<<<<<< HEAD
     border-color: #13363D;
-=======
-    border-color: #ECA717;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
    
 }
 
 .hero  h2{
     font-weight: 400;
     font-size: 1.25rem; 
-<<<<<<< HEAD
     color:#13363D;}
-=======
-    color:#ffffffad;}
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 
 .botao-container{
     width: 100%;
@@ -331,11 +280,7 @@ button{
     padding: 0.25rem;
     border-radius: 0.5rem;
     
-<<<<<<< HEAD
     background-color: #13363D;
-=======
-    background-color: #ECA717;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     margin: -2rem;
     margin-left: 2rem;}
 
@@ -350,19 +295,12 @@ button > img {
 .receitas {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     flex-wrap: wrap;
     
     max-width: 1200px;
     padding: 2rem 1rem;
     margin: auto;
 
-=======
-    
-    max-width: 1200px;
-    padding: 3rem 1rem;
-    margin: auto;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 }
 
 .receitas-cabecalho {
@@ -373,21 +311,13 @@ button > img {
 
 .receitas-titulo{
     font-size: 2rem;
-<<<<<<< HEAD
     color: #13363D;
-=======
-    color: #FFFFFF;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     font-weight: 700; }
 
 
 .receitas-subtitulo{
     font-size: 1rem;
-<<<<<<< HEAD
     color: #13363D;
-=======
-    color:#ffffffad;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     font-weight: 400;
 }
 
@@ -449,11 +379,7 @@ button > img {
 }
 
 .content-card{
-<<<<<<< HEAD
     color: #ffffffc6;
-=======
-    color: #ffffffad;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     font-weight: 400;
     font-size: 1rem;
 }
@@ -480,15 +406,9 @@ button > img {
 
 
 .carregar-receitas{
-<<<<<<< HEAD
     color: #091B21;
     font-size: 1rem;
     margin: 1.5rem auto;
-=======
-    color: #ffffffad;
-    font-size: 1rem;
-    margin: 2rem auto;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     
    
 }
@@ -506,11 +426,7 @@ button > img {
 .novidades > .novidades-conjunto-cards{
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     gap: 1.25rem;
-=======
-    gap: 2rem;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     margin: auto;
 
 }
@@ -525,22 +441,14 @@ button > img {
 
 .novidades > .novidades-cabecalho > h1 {
     font-size: 2rem;
-<<<<<<< HEAD
     color: #13363D;
-=======
-    color: #FFFFFF;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     font-weight: 700;
 
 }
 
 .novidades > .novidades-cabecalho > h2 {
     font-size: 1rem;
-<<<<<<< HEAD
     color: #13363D;
-=======
-    color:#ffffffad;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     font-weight: 400;
 
 }
@@ -598,11 +506,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     background-color: #e5bb60d4;
-=======
-    background-color: #091B21;
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
     gap: 0.5rem;
 
 }
@@ -631,7 +535,6 @@ footer > .detalhes-footer > a{
 
     font-size: 0.85rem;
     color:#ffffffad ;
-<<<<<<< HEAD
 }
 
 
@@ -692,6 +595,4 @@ footer > .detalhes-footer > a{
 
 
 
-=======
->>>>>>> 0462afe3c389ed187587e2da224a6c6fd3bb1b23
 }
